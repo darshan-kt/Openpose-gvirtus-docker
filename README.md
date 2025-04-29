@@ -8,10 +8,12 @@ It is divided into two parts:
 
   1. Running OpenPose in Docker with real-time video streaming
 
-  2. Using the GVirtuS simple application with OpenPose
+  2. Integration of simple openpose application with GVirtuS
 
 
 ## 1.Running OpenPose in Docker with real-time video streaming
+OpenPose is a real-time multi-person keypoint detection library developed by CMU. It estimates human body, face, hands, and foot poses from images or video using deep learning. Built on Caffe, it supports GPU acceleration and offers Python/C++ APIs for integration in research, applications, or real-time systems.
+
 ### Docker Run Command
 To launch the container with all required permissions and capabilities:
 ```bash
@@ -82,5 +84,7 @@ If you encounter shared memory errors (MIT-SHM related), see this OpenPose GitHu
 📎 https://github.com/CMU-Perceptual-Computing-Lab/openpose/issues/2321
 
 
-##  2. Using the GVirtuS simple application with OpenPose
+##  2. Integration of simple openpose application with GVirtuS
+GVirtuS (GPGPU Virtualization Service) is a framework that enables GPU acceleration in virtualized or containerized environments. It allows non-GPU hosts (like lightweight containers or remote clients) to offload GPU computations to a remote machine with a physical GPU. GVirtuS supports CUDA and works with libraries like cuDNN, making GPU-accelerated applications (e.g., OpenPose) usable in constrained environments.
+
 Coming soon....
