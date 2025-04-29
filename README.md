@@ -74,7 +74,7 @@ Before running OpenPose, disable MIT-SHM if using GUI in Docker:
 export MIT_SHM_DISABLE=1
 ./build/examples/openpose/openpose.binS
 ```
-![Demo](openpose_git.gif)
+![Alt text]()
 
 ### Common Issue & Fix
 
